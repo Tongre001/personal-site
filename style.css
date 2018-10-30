@@ -1,0 +1,345 @@
+h1 {
+	margin-left: 80px;
+	margin-top: 80px
+	}
+
+h2 {margin-left: 80px;}
+
+p{
+	margin-left: 80px;
+	margin-right: 80px;
+	font-size: 25px;
+	text-align: justify;
+	line-height: 1.5;
+}
+
+body {
+	background-color: #d3d3d3;
+}
+
+wrap {
+	height: auto;
+	margin: 0 auto -80px; /* footer height + space */
+	min-height: 100%;
+	padding: 0 0 80px; /* footer height + space */
+	box-sizing: border-box;
+	overflow: auto;
+}
+
+/*for the logo*/
+#logo-background {
+	text-align: center;
+	color: #000044;
+	font-size: 50px;
+	font-family: "Georgia", sarif;
+	padding: 20px 50px 20px 50px;
+	
+	position: relative;
+	margin-top: 30px;
+	margin-left: 70px;
+	background-color: #9292ff;
+	opacity:40%;
+	border-color: blue;
+	border: 10px ridge blue;
+	border-radius: 50%;
+	display: inline-block;
+	box-shadow: 5px 8px 12px gray;
+}
+
+/*header for each page.*/
+#welcome {
+	position: absolute;
+	font-size: 50px;
+	color: #003366;
+	font-family: "Georgia", sarif;
+	margin-top: -65px;
+	margin-left: 350px;
+}
+
+/*Navigation bar style */
+.topnav {
+  overflow: hidden;
+  background-color: #003366;
+  display: block;
+  margin-top: 20px;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  background-color: #003366;
+}
+
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.dropdown {
+	float: left;
+	overflow: hidden;
+}
+
+.dropdown .dropbtn {
+	font-size: 17px;    
+	border: none;
+	outline: none;
+	color: white;
+	padding: 14px 16px;
+	background-color: #003366;
+	font-family: inherit;
+	margin: 0;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: white;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+.dropdown-content a {
+	float: none;
+	color: white;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #555;
+  color: white;
+}
+
+.dropdown-content a:hover {
+	background-color: #ddd;
+	color: black;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+	display: none;
+  }
+  .topnav a.icon {
+	float: right;
+	display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+	position: absolute;
+	right: 0;
+	top: 0;
+  }
+  .topnav.responsive a {
+	float: none;
+	display: block;
+	text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+	display: block;
+	width: 100%;
+	text-align: left;
+  }
+}
+
+/*This is for the slideshow on the home page*/
+.imgslide {
+	width: 1000px;
+	height: 500px;
+}
+
+#slider {
+	width: 1000px;
+	height: 500px;
+	margin: 80px auto 100px auto;
+	position: relative;
+	border: 10px solid white;
+	box-shadow: 0px 0px 5px 2px #ccc;
+}
+#slide_btn {
+	padding: 233px 20px;
+	border: none;
+	background: blue;
+	font-size: 30px;
+	color: white;
+	position: absolute;
+	top: 0px;
+	bottom: 0px
+	cursor: pointer;
+	opacity: .3;
+}
+
+#slide_btn:hover{
+	opacity: .8;
+}
+
+.next {
+	border-radius: 10px 0px 0px 10px;
+	margin-left: 950px;
+}
+.prev {
+	border-radius: 0px 10px 10px 0px;
+	margin-left: 0px;
+}
+
+/*for the footer of every page*/
+footer{
+	background-color: #003366;
+	
+	padding-top: 5px;
+	display: block;
+	margin-top: 20px;
+	position:relative;
+	border-radius: 10px;
+}
+
+#logoscontainer {
+	display: table;
+	margin: 0 auto;
+
+}
+
+#logoscontainer img {
+	float: left;
+	display: block;
+	height: 58px;
+	width: auto;
+	padding: 15px 15px 10px 15px;
+
+}
+
+.contactcontainer {
+	display: table;
+	margin: 10px auto 0 auto;
+}
+
+.contactcontainer a{
+	float: left;
+	color: white;
+	display:block;
+	padding-right: 20px;
+	padding-bottom: 20px
+}
+
+/*for the about page*/
+.pic{
+	transform:rotate(90deg); 
+	border: #003366 solid 15px;
+	box-shadow: 10px -10px 10px gray; 
+	border-radius: 20px;
+	float: right;
+}
+
+.skills {
+	list-style-type: none;
+	margin: 0 -10px 0 60px;
+	padding: 0;
+	overflow: hidden;
+	background-color: none;
+}
+
+.skills li {
+	float: left;
+}
+.skills li a {
+	display: block;
+	font-size: 25px;
+	color: black;
+	text-align: center;
+	padding: 16px;
+	text-decoration: none;
+}
+
+
+/*Contact page form*/
+#form {
+	top: 60px;
+	margin: auto auto;
+	padding: 80px;
+}
+.form_text {
+	font-size:20px;
+	padding:3px;
+}
+textarea{
+	height:200px;
+	width:800px;
+	font-size:20px;
+}
+@media only screen and (max-width: 600px){
+	#form {
+		margin: 0 auto 0 auto;
+		padding: 15px 5px 0 5px;
+	}
+	
+	.form_text {
+		font-size: 20px;
+		padding: 3px;
+	}
+	
+	textarea{
+		height:100px;
+		width:300px;
+	}
+	#logo-background{
+		display: none;
+	}
+	
+	#welcome {
+		margin: auto;
+		padding-top: 20px;
+		padding-left: 80px;
+		position: relative;
+	}
+}
+
+/*games page*/
+/*image border will try to be used for any image with a border.*/
+
+
+.imgborder{      
+	border: #003366 solid 15px;
+	box-shadow: 10px 10px 10px gray; 
+	border-radius: 20px;	
+}
+
+figcaption{
+	word-spacing:10px; 
+}
+
+@media screen and (max-width: 600px){
+	.imgslide{
+		width: 300px;
+		height:auto;
+	}
+	.imgborder{
+		border: #003366 solid 5px;
+		box-shadow: 10px 10px 10px gray; 
+		border-radius: 20px;	
+	}
+	
+	figcaption{
+		margin-left: 0px
+	}
+}

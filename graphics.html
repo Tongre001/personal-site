@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>AM Graphic</title>
+	<meta charset="UTF-8">
+	<meta name= "description" content="A software engineer's portfolio.">
+	<meta name="keywords" content="software, graphics, computer, antonio, mendieta, graphics">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-128172860-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-128172860-1');
+	</script>
+	
+	<style>
+		.cardborder{
+			border: #003366 solid 5px;
+			box-shadow: 10px 10px 10px gray; 
+			border-radius: 0px;	
+		}
+		.sectionspacing{
+			margin-left:100px;
+			padding-top:40px;
+		}
+		
+		@media screen and (min-width: 800px){
+			.container {
+				display: flex;
+				align-items: center;
+				margin-left: 100px;
+			}
+			
+			.container div{
+				flex: 1
+			}
+			
+		}
+	</style>
+
+</head>
+<header>
+	<!--Logo Header-->
+	<div>
+		<a id="logo-background">AM</a>
+	</div>
+	<div>
+		<a id="welcome">Graphics</a>
+	</div>
+	
+</header>
+<body>
+	<!--top navigaion bar-->
+	<div class="topnav" id="myTopnav">
+	  <a href="index.html" class="active">Home</a>
+	  <a href="about.html">About</a>
+	  <a href="contact.html">Contact</a>
+	  <div class="dropdown">
+		<button class="dropbtn">Developments
+		  <i class="fa fa-caret-down"></i>
+		</button>
+		<div class="dropdown-content">
+		  <a href="games.html">Games</a>
+		  <a href="graphics.html">Graphics</a>
+		  <a href="apps.html">Apps</a>
+		  <!--This will stay commented out until I have more content --- <a href="websites.html">Websites</a>-->
+		</div>
+	  </div> 
+	  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+	</div>
+</body>
+<body>
+	<div class="container">
+	<div class="sectionspacing">
+	<h1>Business cards</h1>
+		<div style="padding-top:40px">
+		<img src="images/card_back.png" alt="card - front" class="cardborder" style="transform: rotate(-10deg);" >
+		<img src="images/card_front.png" alt="card - back" class="cardborder" style="transform: rotate(10deg" >
+		</div>
+	</div>
+	<div class="sectionspacing">
+	<h1>Vector drawings</h1>
+		<div class="sectionspacing">
+			<img width="auto" height="413" 
+			src="self-portrait.png" alt="SelfPortrait" class="cardborder">
+		</div>
+	</div>
+	</div>
+	<div style="padding: 20px">
+	<p>I will continue to add more when there is more work to show.</p>
+	<!--I only added this in order to seperate the body with the rest of the footer.-->
+	<div style="padding: 60px">
+		
+	</div>
+<footer>
+	<div>
+		
+		<!--28px would be a great size for mobile-->
+		<div id="logoscontainer">
+			<img src="images/F_Logo_Online_09_2018/White/PNG/flogo-HexRBG-Wht-58.png" 
+			href="https://www.facebook.com/tony.mendieta1" alt="Facebook link"/>
+
+			<img src="images/GitHub-Mark/PNG/GitHub-Mark-Light-64px.png" 
+			href="https://github.com/Tongre001" alt="Github link"/>
+	
+			<img src="images/White/In-White-59px-TM.png" 
+			href="https://www.linkedin.com/in/antonio-mendieta" alt="Linkedin link"/>
+		</div>
+		
+	<div class="contactcontainer" >
+		<a href="#email">antonio.mendieta707@gmail.com</a>
+		<a>(707) 704-7574</a>
+	</div>
+	
+</footer>
+</body>
+</html>

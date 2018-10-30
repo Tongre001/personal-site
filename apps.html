@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>AM Apps</title>
+	<meta charset="UTF-8">
+	<meta name= "description" content="A software engineer's portfolio.">
+	<meta name="keywords" content="software, graphics, computer, antonio, mendieta, apps">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+
+<style>
+	.appborder{
+		height: auto;
+		width: 100px;
+		border: #003366 solid 5px;
+		box-shadow: 10px 10px 10px gray; 
+		border-radius: 0px;	
+	}
+	.sectionspacing{
+		margin-left:100px;
+		padding-top:40px;
+	}
+	
+	@media screen and (min-width: 800px){
+		h2 {
+			display: none;
+		}
+		
+	}
+</style>
+</head>
+
+<header>
+	<!--Logo Header-->
+	<div>
+		<a id="logo-background">AM</a>
+	</div>
+	<div>
+		<a id="welcome">Apps</a>
+	</div>
+	
+</header>
+
+<body>
+	<!--top navigaion bar-->
+	<div class="topnav" id="myTopnav">
+	  <a href="index.html" class="active">Home</a>
+	  <a href="about.html">About</a>
+	  <a href="contact.html">Contact</a>
+	  <div class="dropdown">
+		<button class="dropbtn">Developments
+		  <i class="fa fa-caret-down"></i>
+		</button>
+		<div class="dropdown-content">
+		  <a href="games.html">Games</a>
+		  <a href="graphics.html">Graphics</a>
+		  <a href="apps.html">Apps</a>
+		  <!--This will stay commented out until I have more content --- <a href="websites.html">Websites</a>-->
+		</div>
+	  </div> 
+	  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+	</div>
+</body>
+<body>
+	<div>
+	<h1>Apps</h1>
+	<p>These are some applications that I have made in Android Mobile Studio. Hover over each one to display the title of each one. 
+	The code for each one of these could be found on github.</p>
+	<div style="padding-top: 20px;">
+	<h2>Rolling ball</h2>
+	<p>
+	<img class="appborder" src="images/Rollingball.jpg" title="Ball Sensor" alt="Rolling ball"> 
+	 The ball rolls acording to the the phone's sensors.</p></img>
+	<h2>Google Maps Implemetation</h2>
+	<p>
+	<img class="appborder" src="images/Google_Maps_test.jpg" title="Google Maps test" alt="Google Maps Test"> 
+	An example of google maps being tested for educational purposes.</img></p>
+	<h2>Friend Manager</h2>
+	<p>
+	<img class="appborder" src="images/FriendManager.jpg" title="FriendManager" alt="Friend Manager">
+	An app to manage your friends and give them some sort of value.</img></p>
+	</div>
+	</div>
+	
+	<div style="padding: 60px">
+	
+	</div>
+</body>
+
+<footer>
+	<div>
+		
+		<!--28px would be a great size for mobile-->
+		<div id="logoscontainer">
+			<img src="images/F_Logo_Online_09_2018/White/PNG/flogo-HexRBG-Wht-58.png" 
+			href="https://www.facebook.com/tony.mendieta1" alt="Facebook link"/>
+
+			<img src="images/GitHub-Mark/PNG/GitHub-Mark-Light-64px.png" 
+			href="https://github.com/Tongre001" alt="Github link"/>
+	
+			<img src="images/White/In-White-59px-TM.png" 
+			href="https://www.linkedin.com/in/antonio-mendieta" alt="Linkedin link"/>
+		</div>
+		
+		<div class="contactcontainer" >
+			<a href="#email">antonio.mendieta707@gmail.com</a>
+			<a>(707) 704-7574</a>
+		</div>
+	</div>
+	
+</footer>
+</html>
