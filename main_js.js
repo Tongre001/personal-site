@@ -1,4 +1,4 @@
-var slider_content = document.getElementById('box');
+var slider_content = document.getElementById('box'); 
 		
 		//contain images in an array
 		var image = ['images/IE.png','images/internal_incursion.png'];
